@@ -1,0 +1,352 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+h1 a,h2 a,h3 a,ul,li{
+	margin: 0;
+	padding: 0;
+	color:black;
+
+
+}
+
+.smaller{font-size:14px;}
+
+
+.field-items img{
+width:100%;
+height:auto;
+}
+.views-column0{margin-top:20px;    padding-bottom: 20px;
+    border-bottom: solid 1px;}
+
+
+ul li{
+	margin-top:.6em;
+	margin-left:1.6em;
+}
+
+	body{
+	font-family: "Helvetica Neue", "Arial";
+	background-color:#FCFCFC;
+	font-size: 1em;
+}
+
+ul.inline li{
+	padding: 0;
+	margin:0;
+
+}
+h1,li{
+	margin: 0;
+padding: 0;
+}
+
+.page{
+	
+	max-width: 85%;
+	margin: 4% auto;
+}
+
+.notd,.notd ul li, a{
+	text-decoration: none;
+}
+
+
+.logo-title a {
+	font-size:1.4em;
+	color:black;
+	letter-spacing: .3em;
+
+}
+
+
+
+.slogan a {
+	font-size:21px;
+	color:grey;
+	}
+
+
+
+.logo-title a:hover {
+	
+	color:#1DA1F2;
+}
+
+
+.upper{
+	text-transform: uppercase;
+}
+
+.slogan{
+	font-size: 21px;
+	color:grey;
+	font-weight: normal;
+	letter-spacing: .2em;
+}
+
+.main_menu{
+	float: right;
+	
+	font-size: 13px;
+
+}
+
+.item-list ul{
+	margin:1.5em 0 0 0;
+}
+
+.main_menu ul li{
+	display: inline-block;
+	margin-top: 40px;
+	font-weight: 500;
+}
+.main_menu ul li a {
+color:grey;
+}
+
+.main_menu ul li > a:hover {
+color:#1DA1F2;
+}
+
+.socialmedia{
+	float: right;
+	margin-top: 25px;
+	display: block;
+	z-index: 10;
+
+}
+.socialmedia ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.socialmedia ul li:last-child{
+	
+	margin-right: 0px;
+}
+.content-a{
+	margin-top:110px;
+	max-width: 1050px;
+}
+
+footer{
+	margin-top:30px;
+}
+
+.footer_b{
+	width: 50%;
+	display: inline-block;
+	margin:10px auto;
+}
+.content_quote{
+	float: left;
+	
+}
+
+.content_social{
+	float: right;
+
+}
+.page-title{
+	margin-bottom: 1em;
+
+}
+
+.page-title:hover{
+		color:#1DA1F2;
+}
+#breadcrumbs{
+	margin-bottom: .5em;
+}
+a{
+color:grey;
+letter-spacing: 1px;
+
+text-transform: uppercase;
+}
+
+a:hover{
+	color:#1DA1F2;
+}
+
+p{
+	line-height: 1.7em;
+
+	margin: .6em 0;
+}
+
+select{
+background-color:white;
+border: 2px solid black;
+color:black;
+font-size: 15px;
+height:38px;
+width:100%;
+padding: 10px 7px;
+
+
+}
+
+#logo, .sharethis-buttons, .sharethis-wrapper{
+	display: inline-block;
+}
+
+.field-label{
+
+}
+.field{
+
+}
+.sharethis-buttons{
+	float: right;
+}
+.titleoffront {
+    float: right;
+    margin-top: 14px;
+}
+
+.pager{
+	margin-top:21px;
+}
+
+input, textarea{
+	  border: 0 none;
+}
+
+input[type=submit] {
+    background-color: rgba(0, 0, 0, 0.8);
+  
+    color: white;
+    
+    padding: 10px 7px;
+    position: relative;
+    
+    font-size: 15px;
+}
+
+input[type=text],input[type=email],textarea {
+    
+  border: 2px solid black;
+    color: black;
+    
+    padding: 10px 7px;
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+}
+
+
+
+.views-row {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    }
+.views-widget{
+	width: 18em;
+}
+    .views-exposed-form .views-exposed-widget {
+    	float: left;
+    }
+
+    .views-exposed-form .views-exposed-widget .form-submit{
+    	margin-top:2.3em;
+    }
+
+    label{
+    	margin-bottom: 1em;
+    }
+
+    
+.webform-component-textarea .grippie {
+	height: 0px;
+	display: none;
+}
+
+h2 a{
+	margin-bottom: 1em;
+}
+
+.belowcontent{
+margin-top:30px;	
+}
+
+.views-column{
+	display: inline-block;
+}
+
+#block-views-momentsblock-block > h2{
+	text-align: center;
+	
+	font-weight: normal;
+	font-size: 2.1rem;
+}
+
+#block-views-momentsblock-block > h2, .group-header h2 {
+    font-family: "Anton";
+    font-weight: normal;
+}
+
+.clear{
+	clear: both;
+}
+@media screen and (max-width: 1000px){
+	.row{
+		text-align: center;
+	}
+	.breadcrumb {
+		display: none;
+	}
+
+	body{
+		
+	}
+}
+
+@media screen and (max-width: 768px){
+	.row{
+		text-align: center;
+	}
+	.breadcrumb {
+		display: none;
+	}
+
+	body{
+		
+	}
+}
+
+
+
+@media screen and (max-width: 568px){
+body{
+		
+	}	
+}
+
+@media screen and (max-width: 360px){
+.page{
+	width: 320px;
+}
+
+body{
+		
+	}
+
+.logo-title a{
+	font-size: 1.1em;
+
+}
+.slogan{
+	font-size: .6em;
+	}
+
+	.slogan a{
+		font-size: 1.2em;
+
+	}
+
+
+}
+

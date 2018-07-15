@@ -1,0 +1,69 @@
+
+<div class="page">
+
+  <header id="masthead" class="site-header container">
+
+    <div class="row">
+
+      <div id="logo" class="site-branding col-sm-6">
+
+       <h1 class="logo-title upper notd">
+         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?> "><?php print $site_name; ?>
+         </a>
+         <br>
+         <span class="slogan upper"><?php print $site_slogan; ?></span>
+
+
+       </div>
+
+       <div class="main-menu upper notd">
+        <?php 
+        if (module_exists('i18n_menu')) {
+          $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
+        } else {
+          $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+        }
+        print drupal_render($main_menu_tree);
+        ?>
+      </div>
+ </div>
+ 
+
+  <div class="socialmedia">
+    <ul>
+      <li class="social youtube">FB</li>
+      <li class="social twitter">TW</li>
+      <li class="social linkedin">LN</li>
+      <li class="social facebook">FB</li>
+    </ul>
+  </div>
+</header>
+ 
+<div class="content-a">
+ <?php if (theme_get_setting('breadcrumbs')): ?><?php if ($breadcrumb): ?><div id="breadcrumbs"><?php print $breadcrumb; ?></div><?php endif;?><?php endif; ?>
+            <?php print $messages; ?>
+
+<?php print render($title_prefix); ?>
+<?php if ($title): ?><h1 class="page-title upper"><?php print $title; ?></h1><?php endif; ?>
+              <?php print render($title_suffix); ?>
+<?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
+<?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+<?php print render($page['content']); ?> 
+  
+
+</div>
+
+<div class="content_quote footer_b">
+    <?php print render($page['content_quote']); ?>
+</div>
+
+<div class="content_social footer_b">
+  
+<?php print render($page['content_social']); ?>
+</div>
+
+<footer class="upper">
+    <?php print render($page['footer']); ?>
+  
+</footer>
+</div>
